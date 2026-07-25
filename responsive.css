@@ -1,0 +1,1002 @@
+/*==================================================
+  ORYNTIX
+  responsive.css
+  Part 1
+==================================================*/
+
+
+/*=========================
+    LARGE LAPTOPS
+=========================*/
+
+@media (max-width:1400px){
+
+.container{
+
+    width:min(1180px,92%);
+
+}
+
+.hero h1{
+
+    font-size:60px;
+
+}
+
+}
+
+
+
+/*=========================
+    LAPTOPS
+=========================*/
+
+@media (max-width:1200px){
+
+.container{
+
+    width:min(1000px,92%);
+
+}
+
+.hero-container{
+
+    gap:60px;
+
+}
+
+.hero h1{
+
+    font-size:52px;
+
+}
+
+.hero p{
+
+    max-width:540px;
+
+}
+
+.category-grid{
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+}
+
+.features-grid{
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+.footer-top{
+
+    gap:60px;
+
+}
+
+}
+
+
+
+/*=========================
+    SMALL LAPTOPS
+=========================*/
+
+@media (max-width:1024px){
+
+.header{
+
+    padding:18px 0;
+
+}
+
+.nav{
+
+    gap:22px;
+
+}
+
+.hero{
+
+    padding:90px 0;
+
+}
+
+.hero-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+.hero-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-visual{
+
+    margin-top:40px;
+
+}
+
+.category-grid{
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+#featured-products-grid{
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+.features-grid{
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+.footer-top{
+
+    flex-direction:column;
+
+}
+
+}
+
+
+
+/*==================================================
+  ORYNTIX
+  responsive.css
+  Part 2
+==================================================*/
+
+
+/*=========================
+    TABLETS
+=========================*/
+
+@media (max-width:900px){
+
+
+.container{
+
+    width:92%;
+
+}
+
+
+/* HEADER */
+
+.header .container{
+
+    flex-wrap:wrap;
+
+}
+
+
+.nav{
+
+    order:3;
+
+    width:100%;
+
+    justify-content:center;
+
+    margin-top:20px;
+
+}
+
+
+.header-actions{
+
+    gap:10px;
+
+}
+
+
+.login-btn{
+
+    padding:12px 18px;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+    padding:70px 0;
+
+}
+
+
+.hero h1{
+
+    font-size:46px;
+
+}
+
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    width:100%;
+
+    max-width:300px;
+
+}
+
+
+.primary-btn,
+.secondary-btn{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+
+
+/* HERO VISUAL */
+
+.hero-glass{
+
+    width:280px;
+
+    height:360px;
+
+}
+
+
+
+/* SECTIONS */
+
+section{
+
+    padding:70px 0;
+
+}
+
+
+.section-header h2{
+
+    font-size:36px;
+
+}
+
+
+.section-header p{
+
+    font-size:15px;
+
+}
+
+
+
+/* CATEGORIES */
+
+.category-grid{
+
+    gap:20px;
+
+}
+
+
+.category-card{
+
+    padding:28px 20px;
+
+}
+
+
+
+/* PRODUCTS */
+
+#featured-products-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.product-card{
+
+    max-width:420px;
+
+    margin:auto;
+
+}
+
+
+
+/* FEATURES */
+
+.features-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.feature-card{
+
+    padding:30px;
+
+}
+
+
+
+/* CTA */
+
+.cta-card{
+
+    padding:45px 30px;
+
+}
+
+
+.cta-card h2{
+
+    font-size:34px;
+
+}
+
+
+
+/* FOOTER */
+
+.footer-links{
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+
+}
+
+
+
+/*==================================================
+  ORYNTIX
+  responsive.css
+  Part 3
+==================================================*/
+
+
+/*=========================
+    MOBILE DEVICES
+=========================*/
+
+@media (max-width:600px){
+
+
+.container{
+
+    width:90%;
+
+}
+
+
+/*=========================
+    HEADER
+=========================*/
+
+.header{
+
+    padding:15px 0;
+
+}
+
+
+.logo{
+
+    font-size:26px;
+
+}
+
+
+.header-actions{
+
+    gap:8px;
+
+}
+
+
+.header-icon{
+
+    width:40px;
+
+    height:40px;
+
+}
+
+
+.login-btn{
+
+    display:none;
+
+}
+
+
+
+/* MOBILE NAV */
+
+.nav{
+
+    gap:18px;
+
+    overflow-x:auto;
+
+    justify-content:flex-start;
+
+    padding-bottom:5px;
+
+}
+
+
+.nav a{
+
+    font-size:14px;
+
+    white-space:nowrap;
+
+}
+
+
+
+/*=========================
+    HERO
+=========================*/
+
+.hero{
+
+    padding:55px 0;
+
+}
+
+
+.hero-badge{
+
+    font-size:13px;
+
+    padding:8px 15px;
+
+}
+
+
+.hero h1{
+
+    font-size:38px;
+
+    line-height:1.15;
+
+}
+
+
+.hero p{
+
+    font-size:15px;
+
+    line-height:1.7;
+
+}
+
+
+.hero-buttons{
+
+    gap:12px;
+
+}
+
+
+
+/* HERO VISUAL */
+
+.hero-glass{
+
+    width:240px;
+
+    height:320px;
+
+}
+
+
+.hero-orb{
+
+    width:100px;
+
+    height:100px;
+
+}
+
+
+
+/*=========================
+    SECTION HEADERS
+=========================*/
+
+
+.section-header{
+
+    margin-bottom:35px;
+
+}
+
+
+.section-header h2{
+
+    font-size:30px;
+
+}
+
+
+.section-header p{
+
+    font-size:14px;
+
+}
+
+
+
+/*=========================
+    CATEGORY
+=========================*/
+
+.category-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.category-card{
+
+    padding:25px;
+
+}
+
+
+.category-card i{
+
+    font-size:38px;
+
+}
+
+
+
+/*=========================
+    PRODUCTS
+=========================*/
+
+.product-card{
+
+    border-radius:18px;
+
+}
+
+
+.product-body{
+
+    padding:20px;
+
+}
+
+
+.product-body h3{
+
+    font-size:21px;
+
+}
+
+
+.product-footer{
+
+    flex-direction:column;
+
+    align-items:stretch;
+
+    gap:15px;
+
+}
+
+
+
+/*=========================
+    CTA
+=========================*/
+
+.cta-card{
+
+    padding:35px 20px;
+
+    border-radius:22px;
+
+}
+
+
+.cta-card h2{
+
+    font-size:28px;
+
+}
+
+
+.cta-card p{
+
+    font-size:15px;
+
+}
+
+
+.cta-buttons{
+
+    flex-direction:column;
+
+}
+
+
+
+/*=========================
+    FOOTER
+=========================*/
+
+.footer-top{
+
+    gap:35px;
+
+}
+
+
+.footer-links{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.footer-bottom{
+
+    text-align:center;
+
+    justify-content:center;
+
+}
+
+
+
+/*=========================
+    TOUCH OPTIMIZATION
+=========================*/
+
+button,
+a{
+
+    -webkit-tap-highlight-color:transparent;
+
+}
+
+
+}
+
+
+
+
+/*==================================================
+  ORYNTIX
+  responsive.css
+  Part 4
+==================================================*/
+
+
+/*=========================
+    EXTRA SMALL PHONES
+=========================*/
+
+@media (max-width:400px){
+
+
+.container{
+
+    width:88%;
+
+}
+
+
+/* HEADER */
+
+.logo{
+
+    font-size:23px;
+
+}
+
+
+.header-icon{
+
+    width:36px;
+
+    height:36px;
+
+}
+
+
+.header-actions{
+
+    gap:5px;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+    padding:45px 0;
+
+}
+
+
+.hero h1{
+
+    font-size:32px;
+
+}
+
+
+.hero p{
+
+    font-size:14px;
+
+}
+
+
+.hero-badge{
+
+    font-size:12px;
+
+}
+
+
+
+/* BUTTONS */
+
+.primary-btn,
+.secondary-btn{
+
+    padding:13px 20px;
+
+    font-size:14px;
+
+}
+
+
+
+/* HERO VISUAL */
+
+.hero-glass{
+
+    width:210px;
+
+    height:280px;
+
+}
+
+
+
+/* SECTION */
+
+.section-header h2{
+
+    font-size:26px;
+
+}
+
+
+
+/* CARDS */
+
+.category-card{
+
+    padding:22px 15px;
+
+}
+
+
+.feature-card{
+
+    padding:25px 18px;
+
+}
+
+
+.product-body{
+
+    padding:16px;
+
+}
+
+
+
+/* CTA */
+
+.cta-card h2{
+
+    font-size:24px;
+
+}
+
+
+
+}
+
+
+
+/*=========================
+    LANDSCAPE MOBILE
+=========================*/
+
+@media (max-height:500px) and (orientation:landscape){
+
+
+.hero{
+
+    min-height:auto;
+
+    padding:40px 0;
+
+}
+
+
+.hero-container{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+
+.hero h1{
+
+    font-size:34px;
+
+}
+
+
+.hero-visual{
+
+    margin-top:0;
+
+}
+
+
+
+}
+
+
+
+/*=========================
+    LARGE SCREENS
+=========================*/
+
+@media (min-width:1600px){
+
+
+.container{
+
+    width:1400px;
+
+}
+
+
+.hero h1{
+
+    font-size:72px;
+
+}
+
+
+.section-header h2{
+
+    font-size:48px;
+
+}
+
+
+.category-grid{
+
+    gap:35px;
+
+}
+
+
+}
+
+
+
+ /*=========================
+    ACCESSIBILITY
+=========================*/
+
+
+@media (prefers-reduced-motion:reduce){
+
+
+*,
+*::before,
+*::after{
+
+    animation-duration:0.01ms !important;
+
+    animation-iteration-count:1 !important;
+
+    scroll-behavior:auto !important;
+
+    transition-duration:0.01ms !important;
+
+}
+
+
+}
+
+
+
+/*=========================
+    PRINT
+=========================*/
+
+@media print{
+
+
+.header,
+.footer,
+.cta,
+.hero-buttons{
+
+    display:none;
+
+}
+
+
+body{
+
+    background:white;
+
+    color:black;
+
+}
+
+
+}
